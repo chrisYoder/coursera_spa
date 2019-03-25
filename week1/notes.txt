@@ -1,1 +1,29 @@
-this is a test
+1. Why use Frameworks
+    a. deal with complexity
+        a. organize different parts of the codebase
+    b. find relevant code quickly
+    c. update functionality without a rewrite of large portions of the codebase
+    d. code reuse
+    e. ease of testing
+    
+2. Why does code get complex
+    a. hard to read code    
+        -bad or inconsistent coding style
+        -hard to read variable and function names
+        -no comments or api documentation
+    b. high cohesion
+        -when smaller pieces of functionality are strongly related to each other 
+         within some code boundary
+        -how well does that one thing stick to doing just one thing
+    c. loose coupling
+        -least possible dependency of one component on another component
+        -if you change one you don't have to change the other
+        
+        
+Examination of "Low Cohesion and Tight Coupling Code"
+
+1. tight coupling between the input field and keyUp function  
+  -how do you have event listening without tight coupling?
+2. calculateNumericOutput has two things that it does (low cohesion)
+  -calculates the number
+  -displays it to the screen
